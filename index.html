@@ -179,11 +179,15 @@
         // console.log("Add", li);
       }
 
+      
+
+
       // Deleting row Function
       function deleteBtn() {
         list.removeChild(list.childNodes[0]);
-        listItem.removeChild(listItem.childNodes[0])
+        listItem.removeChild(listItem.lastElementChild)
       }
+      console.log(list);
     </script>
   </body>
 </html>
